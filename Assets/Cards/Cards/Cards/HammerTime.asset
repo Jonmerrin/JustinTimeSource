@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414edd086be93d4459c0d76f3a443ee5, type: 3}
+  m_Name: HammerTime
+  m_EditorClassIdentifier: 
+  Name: HammerTime
+  Description: 'Deal 5 damage to an enemy in melee range, 3 damage to surrounding
+    enemies.  '
+  cost: 3
+  returns: 0
+  image: {fileID: 21300000, guid: 5cb9c5800b92ca348bef94b5787aa129, type: 3}
+  soundEffect: {fileID: 0}
+  effects:
+  - affectsAll: 0
+    affectsSelf: 0
+    melee: 1
+    relativePositionsOfEffect:
+    - {x: 0, y: 0}
+    effects: 00000000
+    values: 05000000
+  - affectsAll: 0
+    affectsSelf: 0
+    melee: 0
+    relativePositionsOfEffect:
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: -1}
+    - {x: 2, y: 0}
+    effects: 00000000
+    values: 03000000

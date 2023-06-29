@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3013847464940775801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3013847464940775803}
+  - component: {fileID: 3013847464940775802}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3013847464940775803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3013847464940775801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3013847464940775802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3013847464940775801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b7c6e4d49f10646883f7257e0233ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - {fileID: 11400000, guid: f856b93b6f8377a4bb15fc68f8df1ba3, type: 2}
+  - {fileID: 11400000, guid: f856b93b6f8377a4bb15fc68f8df1ba3, type: 2}
+  - {fileID: 11400000, guid: ee15ec80eba348e458bc5332f6053519, type: 2}
+  - {fileID: 11400000, guid: ee15ec80eba348e458bc5332f6053519, type: 2}
+  - {fileID: 11400000, guid: 75423edfd524e77409b092417e7047f9, type: 2}
+  - {fileID: 11400000, guid: a2e8c42050847594b8e709cb5910f189, type: 2}
+  - {fileID: 11400000, guid: a2e8c42050847594b8e709cb5910f189, type: 2}
+  - {fileID: 11400000, guid: 17a89054ba8d309418ac1ba3b207f1fd, type: 2}
+  - {fileID: 11400000, guid: e6c375c3901559146af3f1dc220843cf, type: 2}
+  - {fileID: 11400000, guid: 989937ef987f8584a9ba52496829adef, type: 2}
+  isGameOver: 0
+  level: 0
+  hasCompletedTutorial: 0
+  health: 5
+  startingHandSize: 4
+  timePerRound: 10
+  optionsInStore: 3
+  startingDeck: {fileID: 11400000, guid: 397c370d150ebbf4498558d5ef4666e0, type: 2}
